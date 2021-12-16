@@ -1,4 +1,4 @@
-import { setupWorker, rest } from 'msw';
+import { rest, setupWorker } from 'msw';
 
 export const mocks = [
   rest.get('https://api.github.com/users/:user', (req, res, ctx) => {

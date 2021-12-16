@@ -1,11 +1,12 @@
-import { render, screen, fireEvent, waitFor } from '@testing-library/angular';
+import { fireEvent, render, screen, waitFor } from '@testing-library/angular';
 import '@testing-library/jest-dom';
 import { CounterComponent } from './counter.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { GitHubService } from '../github.service';
 
-import { server, rest } from '../../mocks/node';
+import { rest, server } from '../../mocks/node';
+
 beforeAll(() => server.listen());
 afterEach(() => server.resetHandlers());
 afterAll(() => server.close());

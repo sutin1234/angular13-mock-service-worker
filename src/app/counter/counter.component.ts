@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { GitHubService } from '../github.service';
-import { Observable } from 'rxjs';
 
 interface User {
   bio: string;

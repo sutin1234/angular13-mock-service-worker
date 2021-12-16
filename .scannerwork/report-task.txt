@@ -1,0 +1,6 @@
+projectKey=angular-msw
+serverUrl=http://localhost:9000
+serverVersion=9.2.2.50622
+dashboardUrl=http://localhost:9000/dashboard?id=angular-msw
+ceTaskId=AX3CUWL_9_vbVjkaa4Tf
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX3CUWL_9_vbVjkaa4Tf
